@@ -216,35 +216,49 @@ nav ul li{
 
 .Support{
   width: 1140px;
-  background-image: url(../assets/handshake.jpg);
-  background-image: 100%;
+  background-image: radial-gradient(circle, rgba(205,205,205,0) 0%, rgba(0,0,0,0.33939513305322133) 100%), url(../assets/handshake.jpg);
+  background-position: center;
+  background-size: cover;
   margin: 74px auto;
-  padding: 0px 97px;
+  padding: 64px 48px;
   color: #ffffff;
+  border-radius: 16px;
+
 }
 
 .support-content{
   text-align: center;
   margin: 0 auto;
-  padding: 2%;
 }
 
 .support-header-text{
   font-size: 48px;
+  
 
+}
+
+.input-text{
+  width: 548px;
+  height: 57px;
+  font-size: 16px;
+  font-weight: 120px;
+  padding: 0px 24px;
+  border-radius: 8px;
+  color: #000000;
+  background-color: #ffffff;
 }
 .support-btn{
   font-size: 20px;
-  height: 65px;
-  font-weight: 244px;
+  height: 57px;
+  font-weight: 120px;
   padding: 17px 24px;
   border-radius: 8px;
-  color: #ffffff;
-  background-color: #000000;
-  border-color: #0D1321;
+  color: #000000;
+  background-color: #ffffff;
 }
 .support-text{
   font-size: 16px;
 }
+
 
 
